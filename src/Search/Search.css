@@ -1,0 +1,33 @@
+.search-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.input-wrapper {
+  margin: 0 auto;
+}
+.cart-wrapper:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.overlay-wrapper {
+  position: absolute;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: -10px -5px 5px -2px #888;
+}
+
+.holder {
+  height: 100%;
+  background: white;
+  padding-right: 20px;
+}
+
+.btn {
+  width: 350px;
+}

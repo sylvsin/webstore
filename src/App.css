@@ -1,0 +1,16 @@
+.app-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+.nav-wrapper {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-wrapper div {
+  margin-right: 10px;
+}

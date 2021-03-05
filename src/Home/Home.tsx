@@ -10,6 +10,7 @@ export const Home: React.FC = () => {
     false,
     currentCategory
   );
+  
 
   return (
     <div className="container">

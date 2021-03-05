@@ -12,3 +12,4 @@ export interface Product {
     category: undefined | null | string;
   }>
 }
+

@@ -15,7 +15,7 @@ export const Search: React.FC<Props> = ({
   selectCategory,
   totalItems,
   onSearch,
-}) => {
+  }) => {
   const [searchValue, setSearchValue] = useState<string>("");
   return (
     <div className="search-container">

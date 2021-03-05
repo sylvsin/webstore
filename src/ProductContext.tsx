@@ -110,10 +110,7 @@ interface CartProduct extends Product {
   quantity: number;
 }
 
-export const useProduct = (
-  isCartProduct: boolean = false,
-  currentCategory: Category = allCategory
-) => {
+export const useProduct = (isCartProduct: boolean = false, currentCategory: Category = allCategory) => {
   const [newProducts, setNewProduct] = useState<CartProduct[]>([]);
   const {
     products,
